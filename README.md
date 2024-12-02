@@ -2,7 +2,7 @@
 
 Generate your own synthetic human head dataset for free using Blender software. The dataset can be used in face analyzation, model pretraining, and other machine learning tasks.
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/logo.jpg)
+![Picture](doc/logo.jpg)
 
 ## Limitations
 
@@ -54,7 +54,7 @@ For ease of use, a ready-made *one-click to run* archive for Windows is availabl
 
 ## SSHG tab settings
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/SSHG_tab.png)
+![Picture](doc/SSHG_tab.png)
 
 ### Resolution
 
@@ -104,68 +104,68 @@ Render infinite. UI will not unlock.
 
 HEAD
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/HEAD.jpg)
+![Picture](doc/type_examples/HEAD.jpg)
 
 HEAD_DEPTH 
 
 Center head towards cam +15cm = 1.0
 Center head towards cam -15cm = 0.0
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/HEAD_DEPTH.jpg)
+![Picture](doc/type_examples/HEAD_DEPTH.jpg)
 
 HAIR
 
 Hair-only on transparent background.
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/HAIR.jpg)
+![Picture](doc/type_examples/HAIR.jpg)
 
 SKIN
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN.jpg)
+![Picture](doc/type_examples/SKIN.jpg)
 
 SKIN_DEPTH
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_DEPTH.jpg)
+![Picture](doc/type_examples/SKIN_DEPTH.jpg)
 
 SKIN_EM_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_EM_MASK.jpg)
+![Picture](doc/type_examples/SKIN_EM_MASK.jpg)
 
 SKIN_NORMAL
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_NORMAL.jpg)
+![Picture](doc/type_examples/SKIN_NORMAL.jpg)
 
 SKIN_WF_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_WF_MASK.jpg)
+![Picture](doc/type_examples/SKIN_WF_MASK.jpg)
 
 FRONTAL_SKIN_NORMAL
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/FRONTAL_SKIN_NORMAL.jpg)
+![Picture](doc/type_examples/FRONTAL_SKIN_NORMAL.jpg)
 
 FRONTAL_SKIN_WF_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/FRONTAL_SKIN_WF_MASK.jpg)
+![Picture](doc/type_examples/FRONTAL_SKIN_WF_MASK.jpg)
 
 HAIR_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/HAIR_MASK.jpg)
+![Picture](doc/type_examples/HAIR_MASK.jpg)
 
 BEARD_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/BEARD_MASK.jpg)
+![Picture](doc/type_examples/BEARD_MASK.jpg)
 
 EYEBROWS_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/EYEBROWS_MASK.jpg)
+![Picture](doc/type_examples/EYEBROWS_MASK.jpg)
 
 EYELASHES_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/EYELASHES_MASK.jpg)
+![Picture](doc/type_examples/EYELASHES_MASK.jpg)
 
 OCCLUSION_MASK
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/OCCLUSION_MASK.jpg)
+![Picture](doc/type_examples/OCCLUSION_MASK.jpg)
 
 JSON_DATA
 
@@ -204,7 +204,17 @@ JSON_DATA
 
 Landmarks example
 
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/JSON_lmrks.png)
+![Picture](doc/type_examples/JSON_lmrks.png)
+
+## More labels
+
+You can combine existing labels using a simple python script. For example you can produce ```SKIN_WF_MASK*(1-HAIR_MASK)``` and get a WF mask without hair. You can also modify the .blend project for any of your fantasies.
+
+## Augmentations
+
+It is recommended to apply different augmentations to increase the variability of the dataset.
+
+![Picture](doc/augmentation_example.gif)
 
 # Changelog
 
