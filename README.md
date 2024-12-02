@@ -143,10 +143,6 @@ FRONTAL_SKIN_WF_MASK
 
 ![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/FRONTAL_SKIN_WF_MASK.jpg)
 
-WF_MASK
-
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/WF_MASK.jpg)
-
 HAIR_MASK
 
 ![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/HAIR_MASK.jpg)
@@ -212,11 +208,11 @@ Landmarks example
 
 # Citation
 
+```
 @software{SSHG,
-  author = {iperov},
   title = {{Simple Synthetic Head Generator}},
-  url = {https://github.com/iperov/SSHG},
-  version = {1.0.0},
-  month = {01},
+  author = {iperov},  
+  url = {https://github.com/iperov/SSHG},  
   year = {2025}
 }
+```
