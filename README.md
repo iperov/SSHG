@@ -2,6 +2,8 @@
 
 Generate your own synthetic human head dataset for free using Blender software. The dataset can be used in face analyzation, model pretraining, and other machine learning tasks.
 
+![Picture](https://github.com/iperov/SSHG/blob/master/doc/logo.jpg)
+
 ## Limitations
 
 The facial model has extensive deformations to ensure high variability. This makes it difficult to adapt eyes and teeth for such deformations. 
@@ -34,13 +36,13 @@ For ease of use, a ready-made *one-click to run* archive for Windows is availabl
 
 ## Start rendering without Blender UI
 
-run SSHG_render.bat         - infinite render using current settings. The output will be placed in SSHG\render\
+**run SSHG_render.bat**       - infinite render using current settings. The output will be placed in SSHG\render\
 
-run SSHG_render_CUDA.bat    - same + override render device to CUDA
+**run SSHG_render_CUDA.bat**  - same + override render device to CUDA
 
 ## Change the settings
 
-1) run SSHG_blender.bat
+1) run **SSHG_blender.bat**
 
 2) change SSHG settings in the SSHG tab
 
@@ -51,6 +53,8 @@ run SSHG_render_CUDA.bat    - same + override render device to CUDA
 4) close Blender
 
 ## SSHG tab settings
+
+![Picture](https://github.com/iperov/SSHG/blob/master/doc/SSHG_tab.png)
 
 ### Resolution
 
@@ -210,7 +214,7 @@ Landmarks example
 
 ```
 @software{SSHG,
-  title = {{Simple Synthetic Head Generator}},
+  title = {Simple Synthetic Head Generator},
   author = {iperov},  
   url = {https://github.com/iperov/SSHG},  
   year = {2025}
