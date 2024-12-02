@@ -135,13 +135,13 @@ SKIN_NORMAL
 
 ![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_NORMAL.jpg)
 
-FRONTAL_SKIN_NORMAL
-
-![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/FRONTAL_SKIN_NORMAL.jpg)
-
 SKIN_WF_MASK
 
 ![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/SKIN_WF_MASK.jpg)
+
+FRONTAL_SKIN_NORMAL
+
+![Picture](https://github.com/iperov/SSHG/blob/master/doc/type_examples/FRONTAL_SKIN_NORMAL.jpg)
 
 FRONTAL_SKIN_WF_MASK
 
