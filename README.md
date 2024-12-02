@@ -1,6 +1,6 @@
 # Simple Synthetic Head Generator (SSHG)
 
-Generate your own synthetic human head dataset for free using Blender software. The dataset can be used in face analyzation, model pretraining, and other machine learning tasks.
+Generate your own synthetic human head dataset for free using Blender software. The dataset can be used in face analysis, model pretraining, and other machine learning tasks.
 
 ![Picture](doc/logo.jpg)
 
